@@ -26,18 +26,18 @@
 
 프로그램의 텍스트와는 별도로 컴파일이 진행되기 전 소스 파일에 필요한 사항들을 먼저 처리하는 전처리(Preprocessing) 작업이 실행 된다. #include 사용
 
-ex)
-// main.pp
-// 전처리 지시문 : 코드에 사용되는 파일을 포함시킴
-#include <iostream>
+ex)<br>
+// main.pp<br>
+// 전처리 지시문 : 코드에 사용되는 파일을 포함시킴<br>
+#include <iostream><br>
 
-int var = 0; //변수 선언 및 초기화
+int var = 0; //변수 선언 및 초기화<br>
 
-int main()
-{
-  var = 100; //**정수 리터럴**을 연산자 =을 사용해 변수에 대입
-  std::cout<<"Hello !";
-  return 0; //return **키워드 사용**
+int main()<br>
+{<br>
+  var = 100; //**정수 리터럴**을 연산자 =을 사용해 변수에 대입<br>
+  std::cout<<"Hello !";<br>
+  return 0; //return **키워드 사용**<br>
 }
 
 [ 정수 자료형 ]
