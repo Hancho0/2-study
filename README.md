@@ -77,15 +77,15 @@ unsigned : 음수를 사용하지 않겠다.
 네임스페이스의 정의는 **전역 범위** 또는 **네임스페이스 내에서만** 허용 된다. 함수처럼 일정 블록 내에서 선언을 하면 에러가 발생한다.
 
 //네임스페이스 선언
-namespace A{
-  int i;
-  double d;
+namespace A{<br>
+  int i;<br>
+  double d;<br>
 }
 
 int var = A::i; //네임스페이스에서 선언된 데이터에 접근. 범위 지정자 사용
 
 // 네임스페이스 다시 선언, A 네임스페이스 안에는 위에 선언된 변수와 함수가 들어가게 됨<br>
-namespace A{
-  void f();
+namespace A{<br>
+  void f();<br>
 }
 
